@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pernil181 </title>
+
+    <!--<link href="<?php //echo base_url('images/favicon_nuevo_.jpg') ?>" rel="shortcut icon" type="image/x-icon" /> -->
+       <?php if (strpos(host(),'localhost:8888')===0) { ?>
+       <link href="<?php echo base_url('images/favicon.jpg') ?>" rel="shortcut icon" type="image/x-icon" /> 
+    <?php  }else{ ?> 
+        <link href="<?php echo base_url('images/favicon_nuevo.jpg') ?>" rel="shortcut icon" type="image/x-icon" /> 
+     <?php } ?> 
+     
+     <link rel="manifest" href="<?php echo base_url('manifest.json') ?>"> 
+       <link href="<?php echo base_url('css/bootstrap.css') ?>" media="screen" rel="stylesheet" type="text/css">
+       <link href="<?php echo base_url('css/jquery.dataTables.css') ?>" media="screen" rel="stylesheet" type="text/css">
+       <link href="<?php echo base_url('css/dataTables.tableTools.css') ?>" media="screen" rel="stylesheet" type="text/css">
+       <link href="<?php echo base_url('css/bootstrap-theme.min.css') ?>" media="screen" rel="stylesheet" type="text/css">
+       
+       <link href="<?php echo base_url('css/bootstrap-select.min.css') ?>" media="screen" rel="stylesheet" type="text/css">
+
+       <link href="<?php echo base_url('css/maba.css') ?>" rel="stylesheet" media="screen">
+       
+       <script type="text/javascript" src="<?php echo base_url('js/jquery.min.js') ?>"></script>
+       <script type="text/javascript" src="<?php echo base_url('js/jquery.dataTables.min.js') ?>"></script>
+       <script type="text/javascript" src="<?php echo base_url('js/dataTables.tableTools.min.js') ?>"></script>
+       <script type="text/javascript" src="<?php echo base_url('js/bootstrap.min.js') ?>"></script>  
+       
+       <script type="text/javascript" src="<?php echo base_url('js/java-jquery-ui.js') ?>"></script>
+       <script type="text/javascript" src="<?php echo base_url('js/bootstrap-select.min.js') ?>"></script>
+
+       <script type="text/javascript" src="<?php echo base_url('js/numeral.min.js') ?>"></script> 
+       <script type="text/javascript" src="<?php echo base_url('js/maba.js') ?>"></script>
+       <script type="text/javascript" src="<?php echo base_url('js/maba_utilidades.js') ?>"></script>
+      
+    </head>
+    
+    <body>
